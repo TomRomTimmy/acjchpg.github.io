@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://www.microsoft.com/apac/digitalsafetyessentials/en-nz/Images/cp-12.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.navbar{
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.logo{
+    color: orange;
+    font-size: 50px;
+    font-family: cursive;
+    float: left;
+    padding-top: .6%;
+}
+
+.menu{
+    width: 1000px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    cursor: pointer;
+    font-family: cursive;
+    color: white;
+    font-size: 85px;
+}
+
+.button{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.btn{
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
